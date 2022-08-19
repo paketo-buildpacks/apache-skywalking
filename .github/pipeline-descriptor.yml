@@ -4,7 +4,7 @@ github:
 
 codeowners:
 - path:  "*"
-  owner: "@paketo-buildpacks/java-buildpacks"
+  owner: "@paketo-buildpacks/app-monitoring-maintainers"
 
 package:
   repositories:   ["docker.io/paketobuildpacks/apache-skywalking", "gcr.io/paketo-buildpacks/apache-skywalking"]

@@ -1,6 +1,6 @@
 # `gcr.io/paketo-buildpacks/apache-skywalking`
 
-The Paketo Apache SkyWalking Buildpack is a Cloud Native Buildpack that contributes the [Apache SkyWalking][s] Agent and configures it to connect to the service.
+The Paketo Buildpack for Apache SkyWalking is a Cloud Native Buildpack that contributes the [Apache SkyWalking][s] Agent and configures it to connect to the service.
 
 [s]: https://skywalking.apache.org
 

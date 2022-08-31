@@ -19,7 +19,7 @@ api = "0.7"
   homepage = "https://github.com/paketo-buildpacks/apache-skywalking"
   id = "paketo-buildpacks/apache-skywalking"
   keywords = ["apache-skywalking", "agent", "apm"]
-  name = "Paketo Apache SkyWalking Buildpack"
+  name = "Paketo Buildpack for Apache SkyWalking"
   sbom-formats = ["application/vnd.syft+json", "application/vnd.cyclonedx+json"]
   version = "{{.version}}"
 

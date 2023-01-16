@@ -32,14 +32,14 @@ api = "0.7"
   pre-package = "scripts/build.sh"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:apache:skywalking:8.13.0:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:apache:skywalking:8.14.0:*:*:*:*:*:*:*"]
     id = "skywalking-java"
     name = "Apache SkyWalking Java Agent"
-    purl = "pkg:generic/apache-skywalking@8.13.0?arch=amd64"
-    sha256 = "ecbd43a100a7ce3ea7e3f189da5bb06dea7733898415eb44ec53620909b3db09"
+    purl = "pkg:generic/apache-skywalking@8.14.0?arch=amd64"
+    sha256 = "cda98bb03baaac1767657df4b74aea88215df1f284e54beaded90c629bd3950e"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://downloads.apache.org/skywalking/java-agent/8.13.0/apache-skywalking-java-agent-8.13.0.tgz"
-    version = "8.13.0"
+    uri = "https://downloads.apache.org/skywalking/java-agent/8.14.0/apache-skywalking-java-agent-8.14.0.tgz"
+    version = "8.14.0"
 
     [[metadata.dependencies.licenses]]
       type = "Apache-2.0"

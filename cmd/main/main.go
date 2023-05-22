@@ -26,8 +26,9 @@ import (
 )
 
 func main() {
+	logger := bard.NewLogger(os.Stdout)
 	libpak.Main(
-		skywalking.Detect{},
-		skywalking.Build{Logger: bard.NewLogger(os.Stdout)},
+		skywalking.Detect{Logger: logger},
+		skywalking.Build{Logger: logger},
 	)
 }

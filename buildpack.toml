@@ -37,8 +37,10 @@ api = "0.7"
     name = "Apache SkyWalking Java Agent"
     purl = "pkg:generic/apache-skywalking@9.0.0?arch=amd64"
     sha256 = "a71146efe9d659fc8074dd6c793b2b736a1393d1c4890a6a56cd4593479106df"
+    source = "https://archive.apache.org/dist/skywalking/java-agent//9.0.0/apache-skywalking-java-agent-9.0.0-src.tgz"
+    source-sha256 = "f1f349627a1a5798dbc0e2ffa266e822156aae640a763c626258c2726e4eb2c5"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://archive.apache.org/dist/skywalking/java-agent/9.0.0/apache-skywalking-java-agent-9.0.0.tgz"
+    uri = "https://archive.apache.org/dist/skywalking/java-agent//9.0.0/apache-skywalking-java-agent-9.0.0.tgz"
     version = "9.0.0"
 
     [[metadata.dependencies.licenses]]

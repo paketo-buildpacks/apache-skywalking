@@ -32,16 +32,16 @@ api = "0.7"
   pre-package = "scripts/build.sh"
 
   [[metadata.dependencies]]
-    cpes = ["cpe:2.3:a:apache:skywalking:9.1.0:*:*:*:*:*:*:*"]
+    cpes = ["cpe:2.3:a:apache:skywalking:9.2.0:*:*:*:*:*:*:*"]
     id = "skywalking-java"
     name = "Apache SkyWalking Java Agent"
-    purl = "pkg:generic/apache-skywalking@9.1.0?arch=amd64"
-    sha256 = "79ce1808965163c939ab34fc411ca444b129f81454c7d4a56d626560219d7280"
-    source = "https://archive.apache.org/dist/skywalking/java-agent/9.1.0/apache-skywalking-java-agent-9.1.0-src.tgz"
-    source-sha256 = "bf74c260ad75307a531dbd4ffc22d1ede87f42e31e0ba65ec66ede0aac67c4de"
+    purl = "pkg:generic/apache-skywalking@9.2.0?arch=amd64"
+    sha256 = "2686ae738921f0e9ecb2667dbf68dd2ad417bd46286b8db0f76cf089e2995dcf"
+    source = "https://archive.apache.org/dist/skywalking/java-agent/9.2.0/apache-skywalking-java-agent-9.2.0-src.tgz"
+    source-sha256 = "b61845a3c691e64eb3d0db507db5796fade241e2d83bfb05717135bdd04514bf"
     stacks = ["io.buildpacks.stacks.bionic", "io.paketo.stacks.tiny", "*"]
-    uri = "https://archive.apache.org/dist/skywalking/java-agent/9.1.0/apache-skywalking-java-agent-9.1.0.tgz"
-    version = "9.1.0"
+    uri = "https://archive.apache.org/dist/skywalking/java-agent/9.2.0/apache-skywalking-java-agent-9.2.0.tgz"
+    version = "9.2.0"
 
     [[metadata.dependencies.licenses]]
       type = "Apache-2.0"

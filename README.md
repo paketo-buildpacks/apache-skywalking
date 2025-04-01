@@ -1,4 +1,7 @@
-# `paketobuildpacks/apache-skywalking`
+# Paketo Buildpack for Apache SkyWalking
+
+## Buildpack ID: `paketo-buildpacks/apache-skywalking`
+## Registry URLs: `docker.io/paketobuildpacks/native-image`
 
 The Paketo Buildpack for Apache SkyWalking is a Cloud Native Buildpack that contributes the [Apache SkyWalking][s] Agent and configures it to connect to the service.
 
